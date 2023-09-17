@@ -1,0 +1,316 @@
+/* ==.....HEADER....==*/
+* {
+  max-width: 1200px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.head {
+  display: flex;
+
+}
+
+.div-head {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: linear-gradient(#000000, #9e2222);
+  width: 100%;
+  height: 50px;
+  padding: 5px;
+}
+
+.logo-head {
+  border: 4px solid #877518;
+  background-image: linear-gradient(#cd1818, #9aae41);
+  padding: 0px 10px;
+  border-radius: 15px;
+
+}
+
+.logo-head:hover {
+  border: none;
+  background-image: url(./label\ back.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 50%;
+  margin-top: 40%;
+  height: 350px;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Times New Roman';
+  font-weight: bolder;
+  color: #e22e2e;
+  border-radius: 10px;
+  transform: scale(1.2);
+}
+
+.head-input {
+  margin-left: 10px;
+  outline: none;
+  font-weight: bold;
+  font-size: 10px;
+  padding: 5px;
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+}
+
+.head-button {
+  padding: 5px 30px;
+  margin-right: 10px;
+  background-image: linear-gradient(#b34646, #e6cf39);
+  border-radius: 10px;
+  border: none;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.head-button:hover {
+  background-image: linear-gradient(#c58f8f, #d42b2b);
+  color: #000000;
+  border: 3px solid #000000;
+  cursor: pointer;
+  transform: scale(1.1);
+  font-weight: bold;
+}
+
+.head-button-2 {
+  padding: 5px 30px;
+  margin-right: 10px;
+  background-image: linear-gradient(#b34646, #e6cf39);
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.head-button-2:hover {
+  background-image: linear-gradient(#c58f8f, #d42b2b);
+  color: #000000;
+  border: 3px solid #000000;
+  transform: scale(1.1);
+  font-weight: bold;
+}
+
+
+.head-icon {
+  display: flex;
+  align-items: center;
+
+}
+
+.search-icon {
+  width: 25px;
+  margin-left: 5px;
+  cursor: pointer;
+
+}
+
+/*...== SUB-HEADER ==...*/
+
+.logo-sections-subhead {
+  display: flex;
+}
+
+.logo-sections-subhead>a {
+  margin: 0px;
+  padding: 0px;
+}
+
+.logo-9 {
+  width: 20px;
+  padding: 10px 5px;
+}
+
+.logo-9:hover {
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+.sub-header {
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(#9e2222, #993535);
+  justify-content: center;
+  font-weight: bold;
+}
+
+.sub-header * {
+  padding-right: 30px;
+}
+
+.border1 * {
+  border-right: #000000 2px solid;
+}
+
+/*<<<<<MAIN SECETION>>>>*/
+.main-class {
+  height: 590px;
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  justify-content: space-around;
+  background-image: linear-gradient(#943636, #000000 );
+  
+}
+.logo{
+  margin-left:500px ;
+}
+
+.logo:hover {
+  transform: scale(1.4, 1);
+  border: 5px solid #bec84b;
+  padding: 10px;
+}
+
+.logo-01 {
+  width: 100px;
+  padding: 5px;
+  height: 120px;
+  border: 5px solid #ad8215;
+  border-radius: 400px;
+  margin-top: 10px;
+}
+
+.logo-01:hover {
+  margin-left:550px ;
+}
+
+.logo-02 {
+  width: 100px;
+  padding: 5px;
+  height: 120px;
+  border: 5px solid#ad8215;
+  border-radius: 400px;
+  margin-top: 10px;
+ 
+}
+
+.logo-02:hover {
+  margin-left:460px;
+}
+
+.logo-03 {
+  width: 100px;
+  height: 120px;
+  padding: 5px;
+  border: 5px solid #ad8215;
+  border-radius: 400px;
+  margin-top: 10px;
+
+}
+
+.logo-03:hover {
+  margin-left:450px;
+}
+
+.logo-04 {
+  width: 100px;
+  height: 120px;
+  padding: 5px;
+  border: 5px solid #ad8215;
+  border-radius: 400px;
+  margin-top: 10px;
+}
+
+.logo-04:hover {
+  margin-left:550px ;
+}
+
+.hulk{
+  width:450px;
+}
+
+/* <<<<<MIAN-OPACITY>>>>> */
+
+/* ***HERE TO MARVEL HERO*** */
+
+.flex-opacity {
+  height: 560px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: linear-gradient(#000000, #c52929);
+  border-bottom: none;
+}
+
+.flex-opacity h3 {
+  margin-left: -30px;
+  background-image: linear-gradient(#9a8c8c, #d42b2b);
+  border: 5px solid black;
+  padding: 5px 10px;
+  font-size: 15px;
+  border-radius: 20px;
+}
+
+.flex-opacity h3:hover {
+  transform: scale(1.5, 1.7);
+  border: 3px solid #000000;
+  background-image: linear-gradient(#cd1818, #9aae41);
+  color: #000000;
+  margin-left: 5px;
+  font-family: 'Times New Roman';
+}
+
+.flex-opacity img {
+  margin-left: -40px;
+  width: 180px;
+  height: 400px;
+  opacity: 0.3;
+  border-radius: 30px;
+  border: 10px solid #081e37;
+}
+
+.flex-opacity img:hover {
+  border: 2px solid  #889e0e;
+  border-radius: 30px;
+  opacity: 1.5;
+  transform: scale(1.4, 1.2);
+}
+
+/* ***HERE TO MARVEL VILLEN*** */
+
+.flex-opacity-02 {
+  height: 560px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: linear-gradient(#c52929, #433131);
+  border-top: none;
+}
+
+.flex-opacity-02 h3 {
+  margin-left: -30px;
+  background-image: linear-gradient(#9a8c8c, #d42b2b);
+  border: 5px solid black;
+  padding: 5px 10px;
+  font-size: 15px;
+  border-radius: 20px;
+}
+
+.flex-opacity-02 h3:hover {
+  transform: scale(1.4, 1.7);
+  border: 3px solid #000000;
+  background-image: linear-gradient(#cd1818, #9aae41);
+  color: #000000;
+  margin-left: 5px;
+  font-family: 'Times New Roman';
+}
+
+.flex-opacity-02 img {
+  margin-left: -40px;
+  width: 180px;
+  height: 400px;
+  opacity: 0.3;
+  border-radius: 30px;
+  border: 10px solid #081e37;
+}
+
+.flex-opacity-02 img:hover {
+  border:2px solid  #51530a;
+  border-radius: 30px;
+  opacity: 1.5;
+  transform: scale(1.4, 1.2);
+}
